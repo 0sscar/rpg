@@ -19,12 +19,13 @@ Hero = Player(helth =100, name = "Hero", damage=35 )
 Villan = Player(helth=100, name= "Villan", damage=15) 
 
 
-while True: 
-    Hero.damage(Villan) 
-    Villan.damage(Hero) 
+while Hero.helth > 0 and Villan.helth >0: 
+    Hero.atack(Villan) 
+    Villan.atack(Hero) 
 
     print(f"Name: {Hero.name} HP:{Hero.helth}") 
     print(f"Name: {Villan.name} HP:{Villan.helth}") 
     
     input() 
- 
+else: 
+    print("Game Over")
