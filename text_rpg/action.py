@@ -8,4 +8,5 @@ class Weapons:
 
 Sword = Weapons(name= "Sword", damage= 9) 
 Bow = Weapons(name= "Bow", damage= 12) 
-Axe = Weapons(name= "Axe", damage= 20)
+Axe = Weapons(name= "Axe", damage= 20) 
+knife = Weapons(name= "Knife", damage=7)
